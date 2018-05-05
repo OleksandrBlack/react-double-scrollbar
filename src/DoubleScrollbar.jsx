@@ -72,7 +72,7 @@ class DoubleScrollbar extends React.Component {
     let childDivStyle = { overflow: "auto", overflowY: "hidden" };
 
     return (
-      <div>
+      <div className="react-double-scrollbar">
         <div ref="outerDiv" style={outerDivStyle}>
           <div ref="innerDiv" style={innerDivStyle}>&nbsp;</div>
         </div>
